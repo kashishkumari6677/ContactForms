@@ -77,6 +77,7 @@
   border: none;
   color: white;
   font-weight: 900;
+  margin-bottom: 20px;
 }
 .butn button:hover{
     background-color: black;
@@ -95,6 +96,58 @@
     margin-top: 20px;
     line-height: 20px;
 }
+#foot{
+    display: flex;
+    padding-left: 30px;
+    background-color: black;
+    color: #ce9c62;
+   
+   
+}
+.about{
+   display: flex;
+   gap: 40px;
+     flex-wrap: wrap;
+ 
+}
+.about h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.Us{
+    width: 20%;
+    margin-top: 60px;
+}
+.Us p{
+    color: white;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.facebook{
+    margin-top: 60px;
+}
+.facebook img{
+    width: 250px;
+    margin-top: 20px;
+}
+.instagram{
+    margin-top: 60px;
+}
+.instagram img{
+    width: 250px;
+    margin-top: 20px;
+}
+.find{
+    margin-top: 60px;
+    width: 25%;
+}
+.find p{
+    color: white;
+}
+.frstimg img{
+    width: 10%;
+}
 @media only screen and (max-width:800px) {
     #form{
         flex-direction: column;
@@ -109,5 +162,15 @@
     .contact{
         width: 100%;
         padding: 10px;
+    }
+    .about{
+        justify-content: center;
+        gap: 80px;
+    }
+    .Us{
+        width: 80%;
+    }
+    .find{
+        width: 80%;
     }
 }
